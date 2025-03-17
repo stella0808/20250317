@@ -36,7 +36,7 @@ function draw() {
 
     // 設定線條顏色和透明度
     let colWithAlpha = color(seaweedColor); // 使用 p5.js 的 color 函數
-    colWithAlpha.setAlpha(50); // 設定透明度為 50，讓顏色更深
+    colWithAlpha.setAlpha(80); // 設定透明度為 50，讓顏色更深
     stroke(colWithAlpha); // 設定線條顏色
     strokeWeight(strokeWidth); // 設定線條粗細
 
